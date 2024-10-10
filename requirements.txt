@@ -1,0 +1,8 @@
+numpy
+pandas
+telethon
+Matplotlib
+Seaborn
+Scikit-learn
+SQLAlchemy
+python-dotenv

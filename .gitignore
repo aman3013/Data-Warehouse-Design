@@ -1,1 +1,13 @@
 .venv/
+.env
+scripts/scraped_data.csv
+scripts/scraped_images.csv
+scripts/scraping_session.session
+scripts/scraping.log
+scripts/photos
+scripts/@CheMed123_last_id.json
+scripts/@DoctorsET_last_id.json
+scripts/@EAHCI_last_id.json
+scripts/@lobelia4cosmetics_last_id.json
+scripts/@yetenaweg_last_id.json
+

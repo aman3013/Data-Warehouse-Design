@@ -2,6 +2,7 @@
 .env
 scripts/scraped_data.csv
 scripts/scraped_images.csv
+scripts/merged_data.csv
 scripts/scraping_session.session
 scripts/scraping.log
 scripts/photos

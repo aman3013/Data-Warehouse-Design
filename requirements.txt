@@ -6,3 +6,4 @@ Seaborn
 Scikit-learn
 SQLAlchemy
 python-dotenv
+wordcloud

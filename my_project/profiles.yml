@@ -1,0 +1,11 @@
+my_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost        # e.g. localhost
+      user: postgres         # e.g. postgres
+      password: "975210"     # Enclosed in quotes to make it a string
+      port: 5432          # Enclosed in quotes to make it a string
+      dbname: medical_data    # Your database name
+      schema: public         # Your schema name

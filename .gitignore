@@ -13,3 +13,6 @@ scripts/@lobelia4cosmetics_last_id.json
 scripts/@yetenaweg_last_id.json
 scripts/cleaned_merged_data.csv
 data/
+notebooks/yolov5s.pt
+notebooks/runs
+logs/

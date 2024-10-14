@@ -7,3 +7,6 @@ Scikit-learn
 SQLAlchemy
 python-dotenv
 wordcloud
+opencv-python
+torch
+tensorflow

@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: medical_data
+    description: "This model contains raw medical data."
+    columns:
+      - name: Channel Title
+        description: "The title of the channel."
+      - name: Channel Username
+        description: "The username of the channel."
+      - name: ID
+        description: "The unique identifier for each message."
+      - name: Message
+        description: "The content of the message."
+      - name: Date
+        description: "The date and time the message was posted."
+      - name: Media Path
+        description: "The path to any media associated with the message."
+ 
+  - name: medical_transformed
+    description: "This model contains transformed medical data."
+    columns:
+      - name: total_messages
+        description: "Total number of messages."
+      

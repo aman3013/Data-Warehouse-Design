@@ -1,0 +1,11 @@
+my_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost        # e.g. localhost
+      user: postgres         # e.g. postgres
+      password: "{{ env_var('DBT_PASSWORD') }}"  # Use environment variable for password
+      port: 5432             # Port for Postgres
+      dbname: medical_data    # Your database name
+      schema: public          # Your schema name

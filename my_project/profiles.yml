@@ -5,7 +5,7 @@ my_project:
       type: postgres
       host: localhost        # e.g. localhost
       user: postgres         # e.g. postgres
-      password: "975210"     # Enclosed in quotes to make it a string
-      port: 5432          # Enclosed in quotes to make it a string
+      password: "{{ env_var('DBT_PASSWORD') }}"  # Use environment variable for password
+      port: 5432             # Port for Postgres
       dbname: medical_data    # Your database name
-      schema: public         # Your schema name
+      schema: public          # Your schema name

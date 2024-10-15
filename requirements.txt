@@ -10,3 +10,7 @@ wordcloud
 opencv-python
 torch
 tensorflow
+fastapi
+uvicorn
+sqlalchemy
+pydantic
